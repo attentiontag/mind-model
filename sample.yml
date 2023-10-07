@@ -1,0 +1,18 @@
+# Sample decoded sensory_output,
+# to be created for training
+spatial_map:
+  cat:
+    confidence: 0.85
+    coords:
+      x: 10
+      y: 20
+    attributes:
+      color: black
+      size: small
+      adjectives:
+        - fluffy
+        - cute
+  dog:
+    ... # similar as cat
+
+
